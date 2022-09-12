@@ -1,4 +1,4 @@
-# Sistema---Abertura-de-Tickets
+# Sistema de Abertura de Tickets (Origem TCC UNOPAR - Protocolo: xxx
 Projeto colaborativo abertura de tickets...
 
 O projeto nasce a partir de meu trabalho acadêmico que será entregue neste 2º semestre de 2022 para formatura acadêmica e seguirá como um código colaborativo... Este ainda está em desenvolvimento, com previsão de entrega para este mês de Setembro.
