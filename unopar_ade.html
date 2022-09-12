@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFÓLIO INTERDICIPLINAR INDIVIDUAL - ADEMILTON</title>
+    
+    <style>
+
+        *{
+
+          box-sizing: border-box;
+
+        }
+        
+        body {
+
+        width: 100%;
+        height: 100%;
+
+        }
+
+        form{
+
+            width: 400px;
+            margin: 200px auto;
+            text-align: center;
+            
+        }
+
+        input{
+
+            display: block;
+            margin: 20px auto;
+            width: 350px;     
+            height: 40px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+      
+      <form>
+
+           <img src="img/unopar_logo.png" alt="Logo da Faculdade Unopar, utilizado somente para fins de entrega de trabalho acadêmico.">
+           <h3>PORTIFÓLIO INTERDICIPLINAR INDIVIDUAL - ADEMILTON</h3>
+           <h3>Login</h3>
+           <input type="text" placeholder="Usuário" id="usuario"> 
+           <input type="password" placeholder="Senha" id="senha">
+           <input type="submit" onclick="logar(); return false">
+
+           <p>
+               Primeiro acesso: 
+               <a href="esqueci_senha.html">clique aqui!</a>
+                
+            </p>
+
+      </form>
+
+      <script>
+          
+          function logar(){
+
+            var login = document.getElementById('usuario').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "visitante" && senha == "bemvindo"){
+                alert('Acesso validado! Bem vindo ;)');
+                location.href = "home.html";
+            } else{
+                alert('Usuário e/ou senha incorretos! Clique em primeiro acesso. ;)');
+            }
+          }
+      </script>
+
+</body>
+</html>
